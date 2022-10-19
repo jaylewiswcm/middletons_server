@@ -1,4 +1,5 @@
 const express = require('express');
+var cors = require('cors')
 // Routes
 const distance_checker = require('./routes/distance_matrix_request')
 
@@ -14,6 +15,13 @@ function logger(req,res,next) {
     next();
 }
 
+var corsOptions = {
+    origin: 'https://middletons.co.uk',
+    optionsSuccessStatus: 200 // some legacy browsers (IE11, various SmartTVs) choke on 204
+  }
+
+
+app.use(cors(corsOptions))
 app.use(logger);
 
 app.use('/postcode', distance_checker)
