@@ -9,7 +9,10 @@
       "hours1": "Mon-Sat 9:00am-5:00pm",
       "hours2": "Sun 10:00am-4:00pm",
       "hours3": "",
-      "distance": 0
+      "distance": 0,
+      "lat": "51.414225",
+      "lng": "-2.609811",
+      "email": "bristol@middletons.co.uk"
     },
     {
       "id": "2",
@@ -22,7 +25,10 @@
       "hours1": "Mon-Sat 9:00am-5:00pm",
       "hours2": "Sun 10:00am-4:00pm",
       "hours3": "",
-      "distance": 0
+      "distance": 0,
+      "lat": "51.602195",
+      "lng": "-3.006283",
+      "email": "newport@middletons.co.uk"
     },
     {
       "id": "3",
@@ -34,7 +40,10 @@
       "hours1": "Mon-Sat 9:00am-5:00pm",
       "hours2": "Sun 10:00am-4:00pm",
       "hours3": "",
-      "distance": 0
+      "distance": 0,
+      "lat": "51.467104",
+      "lng": "-3.191740",
+      "email": "cardiff@middletons.co.uk"
     },
     {
       "id": "4",
@@ -46,7 +55,10 @@
       "hours1": "Mon-Sat 9:00am-5:00pm",
       "hours2": "Sun 10:00am-4:00pm",
       "hours3": "",
-      "distance": 0
+      "distance": 0,
+      "lat": "51.635213",
+      "lng": "-3.956739",
+      "email": "swansea@middletons.co.uk"
     },
     {
       "id": "7",
@@ -58,7 +70,10 @@
       "hours1": "Mon-Wed & Sat 9:00am-5:00pm",
       "hours2": "Sun 10:00am-4:00pm",
       "hours3": "Thu-Fri CLOSED",
-      "distance": 0
+      "distance": 0,
+      "lat": "51.529715",
+      "lng": "-3.257175",
+      "email": "radyrconcession@middletons.co.uk"
     },
     {
       "id": "9",
@@ -70,7 +85,10 @@
       "hours1": "Mon-Sat 9:00am-5:00pm",
       "hours2": "Sun 10:00am-4:00pm",
       "hours3": "",
-      "distance": 0
+      "distance": 0,
+      "lat": "52.737396",
+      "lng": "-2.719125",
+      "email": "shrewsbury@middletons.co.uk"
     },
     {
       "id": "12",
@@ -82,7 +100,10 @@
       "hours1": "Mon-Sat 9:00am-5:00pm",
       "hours2": "Sun 10:00am-4:00pm",
       "hours3": "",
-      "distance": 0
+      "distance": 0,
+      "lat": "52.397233",
+      "lng": "-1.433260",
+      "email": "coventry@middletons.co.uk"
     },
     {
       "id": "13",
@@ -94,7 +115,10 @@
       "hours1": "Mon-Sat 9:00am-5:00pm",
       "hours2": "Sun 10:00am-4:00pm",
       "hours3": "",
-      "distance": 0
+      "distance": 0,
+      "lat": "51.902061",
+      "lng": "-2.072122",
+      "email": "cheltenham@middletons.co.uk"
     },
     {
       "id": "14",
@@ -106,7 +130,10 @@
       "hours1": "Mon-Sat 9:00am-5:00pm",
       "hours2": "Sun 10:00am-4:00pm",
       "hours3": "",
-      "distance": 0
+      "distance": 0,
+      "lat": "52.673725",
+      "lng": "-2.019170",
+      "email": "cannock@middletons.co.uk"
     },
     {
       "id": "15",
@@ -118,7 +145,10 @@
       "hours1": "Mon-Sat 9:00am-5:00pm",
       "hours2": "Sun 10:00am-4:00pm",
       "hours3": "",
-      "distance": 0
+      "distance": 0,
+      "lat": "52.488458",
+      "lng": "-2.118728",
+      "email": "brierleyhill@middletons.co.uk"
     },
     {
       "id": "16",
@@ -130,7 +160,10 @@
       "hours1": "Mon-Sat 9:00am-5:00pm",
       "hours2": "Sun 10:00am-4:00pm",
       "hours3": "",
-      "distance": 0
+      "distance": 0,
+      "lat": "52.931041",
+      "lng": "-1.163577",
+      "email": "nottingham@middletons.co.uk"
     },
     {
       "id": "17",
@@ -142,7 +175,10 @@
       "hours1": "Mon-Sat 9:00am-5:00pm",
       "hours2": "Sun 10:00am-4:00pm",
       "hours3": "",
-      "distance": 0
+      "distance": 0,
+      "lat": "51.582667",
+      "lng": "-1.751694",
+      "email": "swindon@middletons.co.uk"
     },
     {
       "id": "18",
@@ -155,7 +191,10 @@
       "hours1": "Mon-Sat 9:00am-5:00pm",
       "hours2": "Sun 10:00am-4:00pm",
       "hours3": "",
-      "distance": 0
+      "distance": 0,
+      "lat": "50.394622",
+      "lng": "-4.047375",
+      "email": "plymouth@middletons.co.uk"
     },
     {
       "id": "19",
@@ -167,7 +206,10 @@
       "hours1": "Mon-Sat 9:00am-5:00pm",
       "hours2": "Sun 10:00am-4:00pm",
       "hours3": "",
-      "distance": 0
+      "distance": 0,
+      "lat": "50.707764",
+      "lng": "-3.530125",
+      "email": "exeter@middletons.co.uk"
     },
     {
       "id": "20",
@@ -179,7 +221,10 @@
       "hours1": "Mon-Sat 9:00am-5:00pm",
       "hours2": "Sun 10:00am-4:00pm",
       "hours3": "",
-      "distance": 0
+      "distance": 0,
+      "lat": "52.802077",
+      "lng": "-1.635147",
+      "email": "burton-on-trent@middletons.co.uk"
     },
     {
       "id": "21",
@@ -191,7 +236,10 @@
       "hours1": "Mon-Sat 9:00am-5:00pm",
       "hours2": "Sun 10:00am-4:00pm",
       "hours3": "",
-      "distance": 0
+      "distance": 0,
+      "lat": "53.056920",
+      "lng": "-2.207406",
+      "email": "bristol@middletons.co.uk"
     },
     {
       "id": "22",
@@ -203,6 +251,9 @@
       "hours1": "Mon-Sat 9:00am-5:00pm",
       "hours2": "Sun 10:00am-4:00pm",
       "hours3": "",
-      "distance": 0
+      "distance": 0,
+      "lat": "51.436415",
+      "lng": "-0.973739",
+      "email": "reading@middletons.co.uk"
     }
   ]
