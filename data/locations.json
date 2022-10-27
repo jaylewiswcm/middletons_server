@@ -1,259 +1,87 @@
 [
-    {
-      "id": "1",
-      "name": "Middletons Bristol",
-      "address": "65 Whitchurch Lane",
-      "city": "Bristol",
-      "postal": "BS13 7TE",
-      "phone": "0800 999 4812",
-      "hours1": "Mon-Sat 9:00am-5:00pm",
-      "hours2": "Sun 10:00am-4:00pm",
-      "hours3": "",
-      "distance": 0,
-      "lat": "51.414225",
-      "lng": "-2.609811",
-      "email": "bristol@middletons.co.uk"
-    },
-    {
-      "id": "2",
-      "name": "Middletons Newport",
-      "address": "219 Malpas Road",
-      "city": "Newport",
-      "postal": "NP20 5PP",
-      "phone": "0800 999 4812",
-      "niceURL": "Store Page",
-      "hours1": "Mon-Sat 9:00am-5:00pm",
-      "hours2": "Sun 10:00am-4:00pm",
-      "hours3": "",
-      "distance": 0,
-      "lat": "51.602195",
-      "lng": "-3.006283",
-      "email": "newport@middletons.co.uk"
-    },
-    {
-      "id": "3",
-      "name": "Middletons Cardiff",
-      "address": "216 Penarth Road",
-      "city": "Cardiff",
-      "postal": "CF11 8NN",
-      "phone": "0800 999 4812",
-      "hours1": "Mon-Sat 9:00am-5:00pm",
-      "hours2": "Sun 10:00am-4:00pm",
-      "hours3": "",
-      "distance": 0,
-      "lat": "51.467104",
-      "lng": "-3.191740",
-      "email": "cardiff@middletons.co.uk"
-    },
-    {
-      "id": "4",
-      "name": "Middletons Swansea",
-      "address": "Carmarthen Road, Cwmbwrla",
-      "city": "Swansea",
-      "postal": "SA5 8LW",
-      "phone": "0800 999 4812",
-      "hours1": "Mon-Sat 9:00am-5:00pm",
-      "hours2": "Sun 10:00am-4:00pm",
-      "hours3": "",
-      "distance": 0,
-      "lat": "51.635213",
-      "lng": "-3.956739",
-      "email": "swansea@middletons.co.uk"
-    },
-    {
-      "id": "7",
-      "name": "Middletons at Pughs",
-      "address": "Morganstown",
-      "city": "Cardiff",
-      "postal": "CF15 8LB",
-      "phone": "0800 999 4812",
-      "hours1": "Mon-Wed & Sat 9:00am-5:00pm",
-      "hours2": "Sun 10:00am-4:00pm",
-      "hours3": "Thu-Fri CLOSED",
-      "distance": 0,
-      "lat": "51.529715",
-      "lng": "-3.257175",
-      "email": "radyrconcession@middletons.co.uk"
-    },
-    {
-      "id": "9",
-      "name": "Middletons Shrewsbury",
-      "address": "Arlington Way",
-      "city": "Shrewsbury",
-      "postal": "SY1 4YA",
-      "phone": "0800 999 4812",
-      "hours1": "Mon-Sat 9:00am-5:00pm",
-      "hours2": "Sun 10:00am-4:00pm",
-      "hours3": "",
-      "distance": 0,
-      "lat": "52.737396",
-      "lng": "-2.719125",
-      "email": "shrewsbury@middletons.co.uk"
-    },
-    {
-      "id": "12",
-      "name": "Middletons Coventry",
-      "address": "Unit 14 Warwickshire Retail Park, Kynner Way",
-      "city": "Coventry",
-      "postal": "CV3 2SB",
-      "phone": "0800 999 4812",
-      "hours1": "Mon-Sat 9:00am-5:00pm",
-      "hours2": "Sun 10:00am-4:00pm",
-      "hours3": "",
-      "distance": 0,
-      "lat": "52.397233",
-      "lng": "-1.433260",
-      "email": "coventry@middletons.co.uk"
-    },
-    {
-      "id": "13",
-      "name": "Middletons Cheltenham",
-      "address": "Unit 2, 64 Winchcombe St",
-      "city": "Cheltenham",
-      "postal": "GL52 2ND",
-      "phone": "0800 999 4812",
-      "hours1": "Mon-Sat 9:00am-5:00pm",
-      "hours2": "Sun 10:00am-4:00pm",
-      "hours3": "",
-      "distance": 0,
-      "lat": "51.902061",
-      "lng": "-2.072122",
-      "email": "cheltenham@middletons.co.uk"
-    },
-    {
-      "id": "14",
-      "name": "Middletons Cannock",
-      "address": "Unit 10C Voyager Drive, Orbital Retail Park",
-      "city": "Cannock",
-      "postal": "WS11 8XP",
-      "phone": "0800 999 4812",
-      "hours1": "Mon-Sat 9:00am-5:00pm",
-      "hours2": "Sun 10:00am-4:00pm",
-      "hours3": "",
-      "distance": 0,
-      "lat": "52.673725",
-      "lng": "-2.019170",
-      "email": "cannock@middletons.co.uk"
-    },
-    {
-      "id": "15",
-      "name": "Middletons Brierley Hill",
-      "address": "Unit 2 Port West Waterfront, Dudley Road",
-      "city": "Brierley Hill",
-      "postal": "DY5 1LL",
-      "phone": "0800 999 4812",
-      "hours1": "Mon-Sat 9:00am-5:00pm",
-      "hours2": "Sun 10:00am-4:00pm",
-      "hours3": "",
-      "distance": 0,
-      "lat": "52.488458",
-      "lng": "-2.118728",
-      "email": "brierleyhill@middletons.co.uk"
-    },
-    {
-      "id": "16",
-      "name": "Middletons Nottingham",
-      "address": "Electric Avenue (Opposite Porsche)",
-      "city": "Nottingham",
-      "postal": "NG2 1RS",
-      "phone": "0800 999 4812",
-      "hours1": "Mon-Sat 9:00am-5:00pm",
-      "hours2": "Sun 10:00am-4:00pm",
-      "hours3": "",
-      "distance": 0,
-      "lat": "52.931041",
-      "lng": "-1.163577",
-      "email": "nottingham@middletons.co.uk"
-    },
-    {
-      "id": "17",
-      "name": "Middletons Swindon",
-      "address": "Unit T8 Hobley Drive",
-      "city": "Swindon",
-      "postal": "SN3 4NS",
-      "phone": "0800 999 4812",
-      "hours1": "Mon-Sat 9:00am-5:00pm",
-      "hours2": "Sun 10:00am-4:00pm",
-      "hours3": "",
-      "distance": 0,
-      "lat": "51.582667",
-      "lng": "-1.751694",
-      "email": "swindon@middletons.co.uk"
-    },
-    {
-      "id": "18",
-      "name": "Middletons Plymouth",
-      "address": "Units 2\/3 Strode Retail Park, Plympton",
-      "address2": " ",
-      "city": "Plymouth",
-      "postal": "PL7 4AY",
-      "phone": "0800 999 4812",
-      "hours1": "Mon-Sat 9:00am-5:00pm",
-      "hours2": "Sun 10:00am-4:00pm",
-      "hours3": "",
-      "distance": 0,
-      "lat": "50.394622",
-      "lng": "-4.047375",
-      "email": "plymouth@middletons.co.uk"
-    },
-    {
-      "id": "19",
-      "name": "Middletons Exeter",
-      "address": "4 Trusham Road, Marsh Barton ",
-      "city": "Exeter ",
-      "postal": "EX2 8QH",
-      "phone": "0800 999 4812",
-      "hours1": "Mon-Sat 9:00am-5:00pm",
-      "hours2": "Sun 10:00am-4:00pm",
-      "hours3": "",
-      "distance": 0,
-      "lat": "50.707764",
-      "lng": "-3.530125",
-      "email": "exeter@middletons.co.uk"
-    },
-    {
-      "id": "20",
-      "name": "Middletons Burton",
-      "address": "Unit 2 Union Street",
-      "city": "Burton-on-Trent",
-      "postal": "DE14 1AA",
-      "phone": "0800 999 4812",
-      "hours1": "Mon-Sat 9:00am-5:00pm",
-      "hours2": "Sun 10:00am-4:00pm",
-      "hours3": "",
-      "distance": 0,
-      "lat": "52.802077",
-      "lng": "-1.635147",
-      "email": "burton-on-trent@middletons.co.uk"
-    },
-    {
-      "id": "21",
-      "name": "Middletons Stoke",
-      "address": "Jasper Square Retail Park, Tunstall",
-      "city": "Stoke-on-Trent",
-      "postal": "ST6 6AN",
-      "phone": "0800 999 4812",
-      "hours1": "Mon-Sat 9:00am-5:00pm",
-      "hours2": "Sun 10:00am-4:00pm",
-      "hours3": "",
-      "distance": 0,
-      "lat": "53.056920",
-      "lng": "-2.207406",
-      "email": "bristol@middletons.co.uk"
-    },
-    {
-      "id": "22",
-      "name": "Middletons Reading",
-      "address": "31 Boulton Road",
-      "city": "Reading",
-      "postal": "RG2 0NH",
-      "phone": "0800 999 4812",
-      "hours1": "Mon-Sat 9:00am-5:00pm",
-      "hours2": "Sun 10:00am-4:00pm",
-      "hours3": "",
-      "distance": 0,
-      "lat": "51.436415",
-      "lng": "-0.973739",
-      "email": "reading@middletons.co.uk"
-    }
-  ]
+  {
+    "id": "1",
+    "name": "Middletons Bristol",
+    "distance":0
+  },
+  {
+    "id": "2",
+    "name": "Middletons Newport",
+    "distance": 0
+  },
+  {
+    "id": "3",
+    "name": "Middletons Cardiff",
+    "distance": 0
+  },
+  {
+    "id": "4",
+    "name": "Middletons Swansea",
+    "distance": 0
+  },
+  {
+    "id": "7",
+    "name": "Middletons at Pughs",
+    "distance": 0
+  },
+  {
+    "id": "9",
+    "name": "Middletons Shrewsbury",
+    "distance": 0
+  },
+  {
+    "id": "12",
+    "name": "Middletons Coventry",
+    "distance": 0
+  },
+  {
+    "id": "13",
+    "name": "Middletons Cheltenham",
+    "distance": 0
+  },
+  {
+    "id": "14",
+    "name": "Middletons Cannock",
+    "distance": 0
+  },
+  {
+    "id": "15",
+    "name": "Middletons Brierley Hill",
+    "distance": 0
+  },
+  {
+    "id": "16",
+    "name": "Middletons Nottingham",
+    "distance": 0
+  },
+  {
+    "id": "17",
+    "name": "Middletons Swindon",
+    "distance": 0
+  },
+  {
+    "id": "18",
+    "name": "Middletons Plymouth",
+    "distance": 0
+  },
+  {
+    "id": "19",
+    "name": "Middletons Exeter",
+    "distance": 0
+  },
+  {
+    "id": "20",
+    "name": "Middletons Burton",
+    "distance": 0
+  },
+  {
+    "id": "21",
+    "name": "Middletons Stoke",
+    "distance": 0
+  },
+  {
+    "id": "22",
+    "name": "Middletons Reading",
+    "distance": 0
+  }
+]
