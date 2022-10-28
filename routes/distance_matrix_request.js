@@ -33,8 +33,6 @@ router.get('/:postcode', (req, res) => {
       .then(function (response) {
         const data = JSON.stringify(response.data.rows[0].elements[0].distance.text)
 
-        console.log(data);
-      
         const distance = parseInt(data.split(' ')[0].split('"')[1])
         
         store.distance = distance
@@ -50,7 +48,9 @@ router.get('/:postcode', (req, res) => {
     return a.distance - b.distance  ||  a.name.localeCompare(b.name);
   });  
 
+  console.log(storesWithDistance);
   res.json(storesWithDistance)
+
 })
 
 
