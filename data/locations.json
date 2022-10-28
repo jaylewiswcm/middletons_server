@@ -5,7 +5,8 @@
     "address": "65 Whitchurch Lane",
     "city": "Bristol",
     "postal": "BS13 7TE",
-    "distance": 0
+    "distance": 0,
+    "closest" : false
   },
   {
     "id": "2",
@@ -13,7 +14,8 @@
     "address": "219 Malpas Road",
     "city": "Newport",
     "postal": "NP20 5PP",
-    "distance": 0
+    "distance": 0,
+    "closest" : false
   },
   {
     "id": "3",
@@ -21,7 +23,8 @@
     "address": "216 Penarth Road",
     "city": "Cardiff",
     "postal": "CF11 8NN",
-    "distance": 0
+    "distance": 0,
+    "closest" : false
   },
   {
     "id": "4",
@@ -29,7 +32,8 @@
     "address": "Carmarthen Road, Cwmbwrla",
     "city": "Swansea",
     "postal": "SA5 8LW",
-    "distance": 0
+    "distance": 0,
+    "closest" : false
   },
   {
     "id": "7",
@@ -37,7 +41,8 @@
     "address": "Morganstown",
     "city": "Cardiff",
     "postal": "CF15 8LB",
-    "distance": 0
+    "distance": 0,
+    "closest" : false
   },
   {
     "id": "9",
@@ -45,7 +50,8 @@
     "address": "Arlington Way",
     "city": "Shrewsbury",
     "postal": "SY1 4YA",
-    "distance": 0
+    "distance": 0,
+    "closest" : false
   },
   {
     "id": "12",
@@ -53,7 +59,8 @@
     "address": "Unit 14 Warwickshire Retail Park, Kynner Way",
     "city": "Coventry",
     "postal": "CV3 2SB",
-    "distance": 0
+    "distance": 0,
+    "closest" : false
   },
   {
     "id": "13",
@@ -61,7 +68,8 @@
     "address": "Unit 2, 64 Winchcombe St",
     "city": "Cheltenham",
     "postal": "GL52 2ND",
-    "distance": 0
+    "distance": 0,
+    "closest" : false
   },
   {
     "id": "14",
@@ -69,7 +77,8 @@
     "address": "Unit 10C Voyager Drive, Orbital Retail Park",
     "city": "Cannock",
     "postal": "WS11 8XP",
-    "distance": 0
+    "distance": 0,
+    "closest" : false
   },
   {
     "id": "15",
@@ -77,7 +86,8 @@
     "address": "Unit 2 Port West Waterfront, Dudley Road",
     "city": "Brierley Hill",
     "postal": "DY5 1LL",
-    "distance": 0
+    "distance": 0,
+    "closest" : false
   },
   {
     "id": "16",
@@ -85,7 +95,8 @@
     "address": "Electric Avenue (Opposite Porsche)",
     "city": "Nottingham",
     "postal": "NG2 1RS",
-    "distance": 0
+    "distance": 0,
+    "closest" : false
   },
   {
     "id": "17",
@@ -93,7 +104,8 @@
     "address": "Unit T8 Hobley Drive",
     "city": "Swindon",
     "postal": "SN3 4NS",
-    "distance": 0
+    "distance": 0,
+    "closest" : false
   },
   {
     "id": "18",
@@ -102,7 +114,8 @@
     "address2": " ",
     "city": "Plymouth",
     "postal": "PL7 4AY",
-    "distance": 0
+    "distance": 0,
+    "closest" : false
   },
   {
     "id": "19",
@@ -110,7 +123,8 @@
     "address": "4 Trusham Road, Marsh Barton ",
     "city": "Exeter ",
     "postal": "EX2 8QH",
-    "distance": 0
+    "distance": 0,
+    "closest" : false
   },
   {
     "id": "20",
@@ -118,7 +132,8 @@
     "address": "Unit 2 Union Street",
     "city": "Burton-on-Trent",
     "postal": "DE14 1AA",
-    "distance": 0
+    "distance": 0,
+    "closest" : false
   },
   {
     "id": "21",
@@ -126,7 +141,8 @@
     "address": "Jasper Square Retail Park, Tunstall",
     "city": "Stoke-on-Trent",
     "postal": "ST6 6AN",
-    "distance": 0
+    "distance": 0,
+    "closest" : false
   },
   {
     "id": "22",
@@ -134,6 +150,7 @@
     "address": "31 Boulton Road",
     "city": "Reading",
     "postal": "RG2 0NH",
-    "distance": 0
+    "distance": 0,
+    "closest" : false
   }
 ]

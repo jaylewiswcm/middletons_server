@@ -18,8 +18,8 @@ router.get('/:postcode', (req, res) => {
   // Assign data to new array to modify
   const storesWithDistance = [...store_data];
   
+
   storesWithDistance.map((store, index) => {
-   
     const url = `https://maps.googleapis.com/maps/api/distancematrix/json?destinations=${store.postal}&origins=${userPostcode}&units=imperial&key=${process.env.GOOGLE_API_KEY}`
    
     var config = {
@@ -41,6 +41,7 @@ router.get('/:postcode', (req, res) => {
             return a.distance - b.distance  ||  a.name.localeCompare(b.name);
           });  
 
+          storesWithDistance[0].closest = true;
           console.log(storesWithDistance);
           res.json(storesWithDistance)
         }
