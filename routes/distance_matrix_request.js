@@ -35,7 +35,7 @@ router.get('/:postcode', (req, res) => {
         const distance = parseInt(data.split(' ')[0].split('"')[1])
         
         store.distance = distance
-
+        storesWithDistance.closest = false;
         if(index === (storesWithDistance.length - 1)) {
           storesWithDistance.sort(function(a, b) { 
             return a.distance - b.distance  ||  a.name.localeCompare(b.name);
