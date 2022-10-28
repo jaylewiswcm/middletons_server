@@ -14,8 +14,8 @@ router.use((req, res, next) => {
 router.get('/:postcode', (req, res) => {
   
   const userPostcode = req.params.postcode
-
-  const storePostcode = 'Unit 2 Union Street, Burton on Trent DE14 1AA';
+  
+  console.log(userPostcode);
 
   const storesWithDistance = [...store_data];
   
@@ -32,28 +32,25 @@ router.get('/:postcode', (req, res) => {
       axios(config)
       .then(function (response) {
         const data = JSON.stringify(response.data.rows[0].elements[0].distance.text)
+
+        console.log(data);
       
         const distance = parseInt(data.split(' ')[0].split('"')[1])
         
         store.distance = distance
 
-        storesWithDistance.sort(function(a, b) { 
-          return a.distance - b.distance  ||  a.name.localeCompare(b.name);
-        });
-
-        console.log(storesWithDistance);
-
-        if(storesWithDistance.length === 17) {
-          res.send(storesWithDistance);
-        }
-         
+        return storesWithDistance;       
       })
       .catch(function (error) {
         console.log(error);
       });
-
-      
   })
+
+  storesWithDistance.sort(function(a, b) { 
+    return a.distance - b.distance  ||  a.name.localeCompare(b.name);
+  });  
+
+  res.json(storesWithDistance)
 })
 
 
