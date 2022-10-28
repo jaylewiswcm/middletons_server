@@ -13,13 +13,12 @@ router.use((req, res, next) => {
 
 router.get('/:postcode', (req, res) => {
   
+  // Get user postcode from params
   const userPostcode = req.params.postcode
-  
-  console.log(userPostcode);
-
+  // Assign data to new array to modify
   const storesWithDistance = [...store_data];
   
-  storesWithDistance.map(store => {
+  storesWithDistance.map((store, index) => {
    
     const url = `https://maps.googleapis.com/maps/api/distancematrix/json?destinations=${store.postal}&origins=${userPostcode}&units=imperial&key=${process.env.GOOGLE_API_KEY}`
    
@@ -37,6 +36,15 @@ router.get('/:postcode', (req, res) => {
         
         store.distance = distance
 
+        if(index === (storesWithDistance.length - 1)) {
+          storesWithDistance.sort(function(a, b) { 
+            return a.distance - b.distance  ||  a.name.localeCompare(b.name);
+          });  
+
+          console.log(storesWithDistance);
+          res.json(storesWithDistance)
+        }
+
         return storesWithDistance;       
       })
       .catch(function (error) {
@@ -44,12 +52,6 @@ router.get('/:postcode', (req, res) => {
       });
   })
 
-  storesWithDistance.sort(function(a, b) { 
-    return a.distance - b.distance  ||  a.name.localeCompare(b.name);
-  });  
-
-  console.log(storesWithDistance);
-  res.json(storesWithDistance)
 
 })
 
