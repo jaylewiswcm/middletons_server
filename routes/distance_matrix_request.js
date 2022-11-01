@@ -39,13 +39,16 @@ router.get('/:postcode', (req, res) => {
     
 
     store.distance = distance;
+    store.closest = false;
     store.checked = true;
 
     storesWithDistance.sort(function(a, b) { 
       return a.distance - b.distance  ||  a.id.localeCompare(b.id);
     });  
+
     
     if(storesWithDistance[0].distance !== 0) {
+      storesWithDistance[0].closest = true;
       res.json(storesWithDistance)
     }
 
@@ -71,16 +74,16 @@ router.get('/:postcode', (req, res) => {
 
       //   }
         
-      //   // if(index === (storesWithDistance.length - 1)) {
-      //   //   storesWithDistance.sort(function(a, b) { 
-      //   //     return a.distance - b.distance  ||  a.id.localeCompare(b.id);
-      //   //   });  
+        // if(index === (storesWithDistance.length - 1)) {
+        //   storesWithDistance.sort(function(a, b) { 
+        //     return a.distance - b.distance  ||  a.id.localeCompare(b.id);
+        //   });  
 
-      //   //   storesWithDistance.map(store => store.closest = false);
-      //   //   storesWithDistance[0].closest = true;
-      //   //   console.log(storesWithDistance);
-      //   //   // res.json(storesWithDistance)
-      //   // }
+        //   storesWithDistance.map(store => store.closest = false);
+        //   storesWithDistance[0].closest = true;
+        //   console.log(storesWithDistance);
+        //   // res.json(storesWithDistance)
+        // }
 
       //   return storesWithDistance;       
       // })
