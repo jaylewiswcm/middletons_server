@@ -1,0 +1,122 @@
+[
+    {
+      "id": "1",
+      "postal": "BS13 7TE",
+      "distance": 0,
+      "closest" : false,
+      "checked": false
+    },
+    {
+      "id": "2",
+      "postal": "NP20 5PP",
+      "distance": 0,
+      "closest" : false
+,
+"checked": false    },
+    {
+      "id": "3",
+      "postal": "CF11 8NN",
+      "distance": 0,
+      "closest" : false
+,
+"checked": false    },
+    {
+      "id": "4",
+      "postal": "SA5 8LW",
+      "distance": 0,
+      "closest" : false
+,
+"checked": false    },
+    {
+      "id": "7",
+      "postal": "CF15 8LB",
+      "distance": 0,
+      "closest" : false
+,
+"checked": false    },
+    {
+      "id": "9",
+      "postal": "SY1 4YA",
+      "distance": 0,
+      "closest" : false
+,
+"checked": false    },
+    {
+      "id": "12",
+      "postal": "CV3 2SB",
+      "distance": 0,
+      "closest" : false
+,
+"checked": false    },
+    {
+      "id": "13",
+      "postal": "GL52 2ND",
+      "distance": 0,
+      "closest" : false
+,
+"checked": false    },
+    {
+      "id": "14",
+      "postal": "WS11 8XP",
+      "distance": 0,
+      "closest" : false
+,
+"checked": false    },
+    {
+      "id": "15",
+      "postal": "DY5 1LL",
+      "distance": 0,
+      "closest" : false
+,
+"checked": false    },
+    {
+      "id": "16",
+      "postal": "NG2 1RS",
+      "distance": 0,
+      "closest" : false
+,
+"checked": false    },
+    {
+      "id": "17",
+      "postal": "SN3 4NS",
+      "distance": 0,
+      "closest" : false
+,
+"checked": false    },
+    {
+      "id": "18",
+      "postal": "PL7 4AY",
+      "distance": 0,
+      "closest" : false
+,
+"checked": false    },
+    {
+      "id": "19",
+      "postal": "EX2 8QH",
+      "distance": 0,
+      "closest" : false
+,
+"checked": false    },
+    {
+      "id": "20",
+      "postal": "DE14 1AA",
+      "distance": 0,
+      "closest" : false
+,
+"checked": false    },
+    {
+      "id": "21",
+      "postal": "ST6 6AN",
+      "distance": 0,
+      "closest" : false
+,
+"checked": false    },
+    {
+      "id": "22",
+      "postal": "RG2 0NH",
+      "distance": 0,
+      "closest" : false
+,
+"checked": false    }
+  ]
+  

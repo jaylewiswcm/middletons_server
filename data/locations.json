@@ -6,7 +6,8 @@
     "city": "Bristol",
     "postal": "BS13 7TE",
     "distance": 0,
-    "closest" : false
+    "closest" : false,
+    "checked": false
   },
   {
     "id": "2",
@@ -15,7 +16,8 @@
     "city": "Newport",
     "postal": "NP20 5PP",
     "distance": 0,
-    "closest" : false
+    "closest" : false,
+    "checked": false
   },
   {
     "id": "3",
@@ -24,7 +26,8 @@
     "city": "Cardiff",
     "postal": "CF11 8NN",
     "distance": 0,
-    "closest" : false
+    "closest" : false,
+    "checked": false
   },
   {
     "id": "4",
@@ -33,7 +36,8 @@
     "city": "Swansea",
     "postal": "SA5 8LW",
     "distance": 0,
-    "closest" : false
+    "closest" : false,
+    "checked": false
   },
   {
     "id": "7",
@@ -42,7 +46,8 @@
     "city": "Cardiff",
     "postal": "CF15 8LB",
     "distance": 0,
-    "closest" : false
+    "closest" : false,
+    "checked": false
   },
   {
     "id": "9",
@@ -51,7 +56,8 @@
     "city": "Shrewsbury",
     "postal": "SY1 4YA",
     "distance": 0,
-    "closest" : false
+    "closest" : false,
+    "checked": false
   },
   {
     "id": "12",
@@ -60,7 +66,8 @@
     "city": "Coventry",
     "postal": "CV3 2SB",
     "distance": 0,
-    "closest" : false
+    "closest" : false,
+    "checked": false
   },
   {
     "id": "13",
@@ -69,7 +76,8 @@
     "city": "Cheltenham",
     "postal": "GL52 2ND",
     "distance": 0,
-    "closest" : false
+    "closest" : false,
+    "checked": false
   },
   {
     "id": "14",
@@ -78,7 +86,8 @@
     "city": "Cannock",
     "postal": "WS11 8XP",
     "distance": 0,
-    "closest" : false
+    "closest" : false,
+    "checked": false
   },
   {
     "id": "15",
@@ -87,7 +96,8 @@
     "city": "Brierley Hill",
     "postal": "DY5 1LL",
     "distance": 0,
-    "closest" : false
+    "closest" : false,
+    "checked": false
   },
   {
     "id": "16",
@@ -96,7 +106,8 @@
     "city": "Nottingham",
     "postal": "NG2 1RS",
     "distance": 0,
-    "closest" : false
+    "closest" : false,
+    "checked": false
   },
   {
     "id": "17",
@@ -105,7 +116,8 @@
     "city": "Swindon",
     "postal": "SN3 4NS",
     "distance": 0,
-    "closest" : false
+    "closest" : false,
+    "checked": false
   },
   {
     "id": "18",
@@ -115,7 +127,8 @@
     "city": "Plymouth",
     "postal": "PL7 4AY",
     "distance": 0,
-    "closest" : false
+    "closest" : false,
+    "checked": false
   },
   {
     "id": "19",
@@ -124,7 +137,8 @@
     "city": "Exeter ",
     "postal": "EX2 8QH",
     "distance": 0,
-    "closest" : false
+    "closest" : false,
+    "checked": false
   },
   {
     "id": "20",
@@ -133,7 +147,8 @@
     "city": "Burton-on-Trent",
     "postal": "DE14 1AA",
     "distance": 0,
-    "closest" : false
+    "closest" : false,
+    "checked": false
   },
   {
     "id": "21",
@@ -142,7 +157,8 @@
     "city": "Stoke-on-Trent",
     "postal": "ST6 6AN",
     "distance": 0,
-    "closest" : false
+    "closest" : false,
+    "checked": false
   },
   {
     "id": "22",
@@ -151,6 +167,7 @@
     "city": "Reading",
     "postal": "RG2 0NH",
     "distance": 0,
-    "closest" : false
+    "closest" : false,
+    "checked": false
   }
 ]
