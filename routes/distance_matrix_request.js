@@ -45,7 +45,7 @@ router.get('/:postcode', (req, res) => {
     storesWithDistance.sort(function(a, b) { 
       return a.distance - b.distance  ||  a.id.localeCompare(b.id);
     });  
-
+ 
     
     if(storesWithDistance[0].distance !== 0) {
       storesWithDistance[0].closest = true;
